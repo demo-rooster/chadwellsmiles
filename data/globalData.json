@@ -1,80 +1,61 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Chadwell Orthodontics",
+  "domain": "chadwellsmiles.com",
+  "email": "info@chadwellsmiles.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "(864) 486-1888",
+    "href": "tel:+18644861188",
+    "aria": "8 6 4, 4 8 6, 1 8 8 8"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "Duncan, SC",
       "address": {
-        "street": "9650 Main Street",
+        "street": "705 Squires Point",
         "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "city_state": "Duncan, SC 29334",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-82.074973",
+          "latitude": "34.891806"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "(864) 486-1888",
+        "href": "tel:+18644861188"
       },
-      "email": "info@mandtortho.com",
+      "email": "info@chadwellsmiles.com",
       "hours": [
         {
-          "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
+          "day": "Mon",
+          "time": "7:30 AM - 4:30 PM"
         },
         {
-          "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
+          "day": "Tues",
+          "time": "7:30 AM - 4:30 PM"
         },
         {
-          "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
+          "day": "Wed",
+          "time": "7:00 AM - 4:30 PM"
         },
         {
-          "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
+          "day": "Thu",
+          "time": "7:30 AM - 4:30 PM"
         },
         {
-          "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "day": "Fri",
+          "time": "7:30 AM - 4:30 PM"
+        },
+        {
+          "day": "Sat - Sun",
+          "time": "Closed"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
+        "href": "https://www.google.com/maps/place/Chadwell+Orthodontics/@34.891806,-82.074973,15z",
         "label": "Get Directions"
       },
-      "special_note": ""
-    },
-    {
-      "title": "Tonawanda Office",
-      "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
-        "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
-        }
-      },
-      "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
-      },
-      "email": "info@mandtortho.com",
-      "hours": [],
-      "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
-        "label": "Get Directions"
-      },
-      "special_note": ""
+      "special_note": "Alternating Mondays/Fridays for added availability. Before/after-school appointment blocks available. Lunch typically 12:30 PM – 1:30 PM."
     }
   ],
   "typography": [
@@ -94,28 +75,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "tooth-two-v2",
+        "text": "705 Squires Point, Duncan, SC 29334",
+        "href": "https://www.google.com/maps/place/Chadwell+Orthodontics/@34.891806,-82.074973,15z",
+        "label": "View 705 Squires Point, Duncan, SC 29334 on google maps",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "(864) 486-1888",
+        "href": "tel:+18644861188",
+        "label": "Call (864) 486-1888",
         "new_window": false
       }
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "Schedule Your Free Consultation",
+      "text": "Now accepting new patients. Flexible scheduling including before/after school blocks and alternating Mondays/Fridays. Click to learn more or request an appointment.",
+      "mobile_text": "Schedule Consultation",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "Schedule Your Free Consultation",
+        "text": "Chadwell Orthodontics provides complimentary consultations for children, teens and adults. We combine modern orthodontic technology with a patient-first approach and flexible payment options. To request an appointment, click the Schedule button in the header or call us at (864) 486-1888."
       }
     }
   },
@@ -129,8 +110,8 @@
           "label": "Schedule Consultation",
           "aria_label": "Schedule a consultation",
           "href": "",
-          "path": "/contact",
-          "hash": "#form",
+          "path": "/request-an-appointment/",
+          "hash": "",
           "external": false,
           "include_icon": true,
           "icon": "tooth-two-v2",
@@ -150,20 +131,32 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
+        "href": "https://www.facebook.com/chadwellortho/",
+        "icon": "facebook"
+      },
+      {
+        "href": "https://www.instagram.com/chadwellortho/",
+        "icon": "instagram"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=6nA5K6g1Zc4&t=15s",
         "icon": "youtube"
+      },
+      {
+        "href": "https://www.yelp.com/biz/chadwell-orthodontics-duncan-2",
+        "icon": "yelp"
       }
     ],
     "add_border": false
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Chadwell Orthodontics",
     "text": "",
     "image": {
-      "src": "",
+      "src": "https://chadwellsmiles.com/wp-content/uploads/2022/03/Office-Tour-Hero.jpg",
       "webp": "",
-      "alt": "",
+      "alt": "Chadwell Orthodontics office",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
@@ -171,7 +164,9 @@
       "objectPosition": "",
       "forceAlt": "",
       "loading_mask": "",
-      "image_selection_hints": null
+      "image_selection_hints": {
+        "context_category": "Contact Hero"
+      }
     }
   }
 }
